@@ -16,7 +16,6 @@
         <input type="submit" name="submit" value="Submit" />
         </center>
     </form>
-<table border="1">
   <?php
   $seat = array("Seat 1" => array ("window" => 5),
                 "Seat 2" => array ("window" => 5),
@@ -59,7 +58,6 @@
 
 
    ?>
-</table>
 
   </body>
 </html>
