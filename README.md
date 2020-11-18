@@ -1,5 +1,6 @@
 # group7_casestudy4
-INFO 3305 Web App Case Study 4 (Group 7)
+INFO 3305 Section 2
+Case Study 4 (Group 7)
 
 Case Study: Bus Ticket Reservation System
 
