@@ -11,36 +11,36 @@
 
 <?php
 
-    $seat = array("Seat 1" => array ("single" => 10),
+    $seat = array("Seat 1" => array ("window" => 5),
                   "Seat 2" => array ("window" => 5),
-                  "Seat 3" => array ("aisle" => 5),
-                  "Seat 4" => array ("single" => 10),
+                  "Seat 3" => array ("window" => 5),
+                  "Seat 4" => array ("window" => 5),
                   "Seat 5" => array ("window" => 5),
-                  "Seat 6" => array ("aisle" => 5),
-                  "Seat 7" => array ("single" => 10),
+                  "Seat 6" => array ("window" => 5),
+                  "Seat 7" => array ("window" => 5),
                   "Seat 8" => array ("window" => 5),
-                  "Seat 9" => array ("aisle" => 5),
-                  "Seat 10" => array ("single" => 10),
-                  "Seat 11" => array ("window" => 5),
+                  "Seat 9" => array ("window" => 5),
+                  "Seat 10" => array ("aisle" => 5),
+                  "Seat 11" => array ("aisle" => 5),
                   "Seat 12" => array ("aisle" => 5),
-                  "Seat 14" => array ("window" => 5),
-                  "Seat 13" => array ("single" => 10),
+                  "Seat 14" => array ("aisle" => 5),
+                  "Seat 13" => array ("aisle" => 5),
                   "Seat 15" => array ("aisle" => 5),
-                  "Seat 16" => array ("single" => 10),
-                  "Seat 17" => array ("window" => 5),
+                  "Seat 16" => array ("aisle" => 5),
+                  "Seat 17" => array ("aisle" => 5),
                   "Seat 18" => array ("aisle" => 5),
-                  "Seat 19" => array ("single" => 10),
-                  "Seat 20" => array ("window" => 5),
-                  "Seat 21" => array ("aisle" => 5),
+                  "Seat 19" => array ("aisle" => 5),
+                  "Seat 20" => array ("aisle" => 5),
+                  "Seat 21" => array ("single" => 10),
                   "Seat 22" => array ("single" => 10),
-                  "Seat 23" => array ("window" => 5),
-                  "Seat 24" => array ("aisle" => 5),
+                  "Seat 23" => array ("single" => 10),
+                  "Seat 24" => array ("single" => 10),
                   "Seat 25" => array ("single" => 10),
-                  "Seat 26" => array ("window" => 5),
-                  "Seat 27" => array ("aisle" => 5),
+                  "Seat 26" => array ("single" => 10),
+                  "Seat 27" => array ("single" => 10),
                   "Seat 28" => array ("single" => 10),
-                  "Seat 29" => array ("window" => 5),
-                  "Seat 30" => array ("aisle" => 5)
+                  "Seat 29" => array ("single" => 10),
+                  "Seat 30" => array ("single" => 10)
                 );
 
                 /*foreach ($seat as $key => $value) {
@@ -126,7 +126,7 @@
 
 
     function bookWindow() {
-      for ($i=0; $i < 20; $i++) {
+      for ($i=0; $i < 10; $i++) {
         if (isset($seat[$i]) == 0) {
           $seat[$i] = 1;
           return $i + 1;
@@ -137,7 +137,7 @@
     }
 
     function bookAisle() {
-      for ($i=20; $i < 30; $i++) {
+      for ($i=11; $i < 20; $i++) {
         if (isset($seat[$i]) == 0){
           $seat[$i] = 1;
           return ($i + 1);
@@ -148,7 +148,7 @@
     }
 
     function bookSingle() {
-      for ($i=0; $i < 10; $i++) {
+      for ($i=21; $i < 30; $i++) {
         if (isset($seat[$i]) == 0) {
           $seat[$i] = 1;
           return $i + 1;
