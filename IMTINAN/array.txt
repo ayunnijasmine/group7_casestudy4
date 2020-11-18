@@ -1,0 +1,226 @@
+<body>
+      
+      <?php
+         $seat = array( 
+            "seat 1" => array (
+               "price in RM" => 10,
+             
+            ),
+            
+            "seat 2" => array (
+               "price in RM" => 5,
+               
+            ),
+            
+            "seat 3" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 4" => array (
+               "price in RM" => 10,
+              
+            ),
+            "seat 5" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 6" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 7" => array (
+               "price in RM" => 10,
+              
+            ),
+            "seat 8" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 9" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 10" => array (
+               "price in RM" => 10,
+              
+            ),
+            "seat 11" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 12" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 13" => array (
+               "price in RM" => 10,
+              
+            ),
+            "seat 14" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 15" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 16" => array (
+               "price in RM" => 10,
+              
+            ),
+            "seat 17" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 18" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 19" => array (
+               "price in RM" => 10,
+              
+            ),
+            "seat 20" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 21" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 22" => array (
+               "price in RM" => 10,
+              
+            ),
+            "seat 23" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 24" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 25" => array (
+               "price in RM" => 10,
+              
+            ),
+            "seat 26" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 27" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 28" => array (
+               "price in RM" => 10,
+              
+            ),
+            "seat 29" => array (
+               "price in RM" => 5,
+              
+            ),
+            "seat 30" => array (
+               "price in RM" => 5,
+              
+            ),
+         );
+         
+         /* Accessing multi-dimensional array values */
+         echo "This will produce the seat numbers with their prices"."<br/>";
+         echo "Price for Single seat is RM 10 "."<br />";
+         echo " Price for 1 Double Seat is RM 5" ."<br />";
+         
+         echo "Price for seat 1 : " ;
+         echo $seat['seat 1']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 2 : ";
+         echo $seat['seat 2']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 3 : " ;
+         echo $seat['seat 3']['price in RM'] . "<br />";
+         
+         echo "Price for seat 4 : " ;
+         echo $seat['seat 4']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 5 : " ;
+         echo $seat['seat 5']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 6 : " ;
+         echo $seat['seat 6']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 7 : " ;
+         echo $seat['seat 7']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 8 : " ;
+         echo $seat['seat 8']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 9 : " ;
+         echo $seat['seat 9']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 10 : " ;
+         echo $seat['seat 10']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 11 : " ;
+         echo $seat['seat 11']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 12 : " ;
+         echo $seat['seat 12']['price in RM'] . "<br />";
+         
+         echo "Price for seat 13 : " ;
+         echo $seat['seat 13']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 14 : " ;
+         echo $seat['seat 14']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 15 : " ;
+         echo $seat['seat 15']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 16 : " ;
+         echo $seat['seat 16']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 17 : " ;
+         echo $seat['seat 17']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 18 : " ;
+         echo $seat['seat 18']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 19 : " ;
+         echo $seat['seat 19']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 20 : " ;
+         echo $seat['seat 20']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 21 : " ;
+         echo $seat['seat 21']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 22 : " ;
+         echo $seat['seat 22']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 23 : " ;
+         echo $seat['seat 23']['price in RM'] . "<br />";
+         
+         echo "Price for seat 24 : " ;
+         echo $seat['seat 24']['price in RM'] . "<br />";
+         
+         echo "Price for seat 25 : " ;
+         echo $seat['seat 25']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 26 : " ;
+         echo $seat['seat 26']['price in RM'] . "<br />";
+         
+         echo "Price for seat 27 : " ;
+         echo $seat['seat 27']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 28 : " ;
+         echo $seat['seat 28']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 29 : " ;
+         echo $seat['seat 29']['price in RM'] . "<br />"; 
+         
+         echo "Price for seat 30 : " ;
+         echo $seat['seat 30']['price in RM'] . "<br />"; 
+      ?>
+   
+   </body>
+</html>
