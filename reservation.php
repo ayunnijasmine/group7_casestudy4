@@ -20,7 +20,7 @@
                   "Seat 7" => array ("window" => 5),
                   "Seat 8" => array ("window" => 5),
                   "Seat 9" => array ("window" => 5),
-                  "Seat 10" => array ("aisle" => 5),
+                  "Seat 10" => array ("window" => 5),
                   "Seat 11" => array ("aisle" => 5),
                   "Seat 12" => array ("aisle" => 5),
                   "Seat 14" => array ("aisle" => 5),
